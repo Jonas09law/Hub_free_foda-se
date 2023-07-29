@@ -1,0 +1,294 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MenuHubrp = Instance.new("ScreenGui")
+local Fundo = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Nomemenu = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Creditos = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Nomecreditos = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local Creditoglr = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Creditopxz = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local FelipeMenu = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local OpcoesAdm = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Embreve = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local Proveito = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Aimbotdesc = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local Killall = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Killalldesc = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local Errofelipemenu = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+MenuHubrp.Name = "Menu Hub rp"
+MenuHubrp.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MenuHubrp.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Fundo.Name = "Fundo"
+Fundo.Parent = MenuHubrp
+Fundo.BackgroundColor3 = Color3.fromRGB(10, 26, 255)
+Fundo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fundo.BorderSizePixel = 0
+Fundo.Position = UDim2.new(0.304414004, 0, 0.130612239, 0)
+Fundo.Size = UDim2.new(0, 329, 0, 214)
+Fundo.Draggable = true
+Fundo.Active = true
+Fundo.Selectable = true
+
+UICorner.Parent = Fundo
+
+Nomemenu.Name = "Nomemenu"
+Nomemenu.Parent = Fundo
+Nomemenu.BackgroundColor3 = Color3.fromRGB(222, 224, 225)
+Nomemenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nomemenu.BorderSizePixel = 0
+Nomemenu.Position = UDim2.new(0, 0, -0.233644858, 0)
+Nomemenu.Size = UDim2.new(0, 200, 0, 50)
+Nomemenu.Font = Enum.Font.PermanentMarker
+Nomemenu.Text = "Menu Zaralho Roleplay"
+Nomemenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nomemenu.TextScaled = true
+Nomemenu.TextSize = 14.000
+Nomemenu.TextWrapped = true
+
+UICorner_2.Parent = Nomemenu
+
+Creditos.Name = "Creditos"
+Creditos.Parent = Fundo
+Creditos.BackgroundColor3 = Color3.fromRGB(156, 0, 10)
+Creditos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creditos.BorderSizePixel = 0
+Creditos.Position = UDim2.new(1, 0, 0, 0)
+Creditos.Size = UDim2.new(0, 111, 0, 214)
+
+UICorner_3.Parent = Creditos
+
+Nomecreditos.Name = "Nomecreditos"
+Nomecreditos.Parent = Fundo
+Nomecreditos.BackgroundColor3 = Color3.fromRGB(95, 11, 108)
+Nomecreditos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nomecreditos.BorderSizePixel = 0
+Nomecreditos.Position = UDim2.new(1.02431607, 0, 0.0280373823, 0)
+Nomecreditos.Size = UDim2.new(0, 94, 0, 29)
+Nomecreditos.Font = Enum.Font.Unknown
+Nomecreditos.Text = "Créditos"
+Nomecreditos.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nomecreditos.TextScaled = true
+Nomecreditos.TextSize = 14.000
+Nomecreditos.TextWrapped = true
+
+UICorner_4.Parent = Nomecreditos
+
+Creditoglr.Name = "Creditoglr"
+Creditoglr.Parent = Fundo
+Creditoglr.BackgroundColor3 = Color3.fromRGB(142, 152, 124)
+Creditoglr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creditoglr.BorderSizePixel = 0
+Creditoglr.Position = UDim2.new(1.01823711, 0, 0.214953274, 0)
+Creditoglr.Size = UDim2.new(0, 96, 0, 24)
+Creditoglr.Font = Enum.Font.SourceSansBold
+Creditoglr.Text = "glr"
+Creditoglr.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditoglr.TextScaled = true
+Creditoglr.TextSize = 14.000
+Creditoglr.TextWrapped = true
+
+UICorner_5.Parent = Creditoglr
+
+Creditopxz.Name = "Creditopxz"
+Creditopxz.Parent = Fundo
+Creditopxz.BackgroundColor3 = Color3.fromRGB(142, 152, 124)
+Creditopxz.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Creditopxz.BorderSizePixel = 0
+Creditopxz.Position = UDim2.new(1.02127659, 0, 0.406542063, 0)
+Creditopxz.Size = UDim2.new(0, 96, 0, 24)
+Creditopxz.Font = Enum.Font.SourceSansBold
+Creditopxz.Text = "Pedroxz63"
+Creditopxz.TextColor3 = Color3.fromRGB(0, 0, 0)
+Creditopxz.TextScaled = true
+Creditopxz.TextSize = 14.000
+Creditopxz.TextWrapped = true
+
+UICorner_6.Parent = Creditopxz
+
+ImageLabel.Parent = Creditopxz
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0416666679, 0, 1.45833337, 0)
+ImageLabel.Size = UDim2.new(0, 88, 0, 83)
+ImageLabel.Image = "rbxassetid://14162643924"
+
+FelipeMenu.Name = "FelipeMenu"
+FelipeMenu.Parent = Fundo
+FelipeMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FelipeMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FelipeMenu.BorderSizePixel = 0
+FelipeMenu.Position = UDim2.new(0.0303951371, 0, 0.0280373842, 0)
+FelipeMenu.Size = UDim2.new(0, 164, 0, 26)
+FelipeMenu.Font = Enum.Font.SourceSans
+FelipeMenu.Text = "Felipe Menu"
+FelipeMenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+FelipeMenu.TextScaled = true
+FelipeMenu.TextSize = 14.000
+FelipeMenu.TextWrapped = true
+FelipeMenu.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DebugCrazY/FMobfuscated/main/fm.lua'))()
+end)
+
+UICorner_7.Parent = FelipeMenu
+
+OpcoesAdm.Name = "OpcoesAdm"
+OpcoesAdm.Parent = Fundo
+OpcoesAdm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpcoesAdm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpcoesAdm.BorderSizePixel = 0
+OpcoesAdm.Position = UDim2.new(0.0303951353, 0, 0.214953259, 0)
+OpcoesAdm.Size = UDim2.new(0, 164, 0, 26)
+OpcoesAdm.Font = Enum.Font.SourceSans
+OpcoesAdm.Text = "Opções ADM"
+OpcoesAdm.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpcoesAdm.TextScaled = true
+OpcoesAdm.TextSize = 14.000
+OpcoesAdm.TextWrapped = true
+OpcoesAdm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_8.Parent = OpcoesAdm
+
+Embreve.Name = "Em breve"
+Embreve.Parent = Fundo
+Embreve.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Embreve.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Embreve.BorderSizePixel = 0
+Embreve.Position = UDim2.new(0.0303951371, 0, 0.83644861, 0)
+Embreve.Size = UDim2.new(0, 190, 0, 26)
+Embreve.Font = Enum.Font.SourceSansBold
+Embreve.Text = "Em breve iremos adicionar a opção de conseguir dinheiro."
+Embreve.TextColor3 = Color3.fromRGB(0, 0, 0)
+Embreve.TextScaled = true
+Embreve.TextSize = 14.000
+Embreve.TextWrapped = true
+
+UICorner_9.Parent = Embreve
+
+Proveito.Name = "Proveito"
+Proveito.Parent = Fundo
+Proveito.BackgroundColor3 = Color3.fromRGB(255, 239, 10)
+Proveito.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Proveito.BorderSizePixel = 0
+Proveito.Position = UDim2.new(0.632218838, 0, 0.83644861, 0)
+Proveito.Size = UDim2.new(0, 117, 0, 26)
+Proveito.Font = Enum.Font.SourceSansBold
+Proveito.Text = "Faça bom proveito;)"
+Proveito.TextColor3 = Color3.fromRGB(0, 0, 0)
+Proveito.TextScaled = true
+Proveito.TextSize = 14.000
+Proveito.TextWrapped = true
+
+UICorner_10.Parent = Proveito
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Fundo
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.553191483, 0, 0.0420560762, 0)
+Aimbot.Size = UDim2.new(0, 136, 0, 26)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14.000
+Aimbot.TextWrapped = true
+Aimbot.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+UICorner_11.Parent = Aimbot
+
+Aimbotdesc.Name = "Aimbot desc"
+Aimbotdesc.Parent = Fundo
+Aimbotdesc.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Aimbotdesc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbotdesc.BorderSizePixel = 0
+Aimbotdesc.Position = UDim2.new(0.583586633, 0, 0.163551405, 0)
+Aimbotdesc.Size = UDim2.new(0, 115, 0, 56)
+Aimbotdesc.Font = Enum.Font.SourceSansBold
+Aimbotdesc.Text = "Essa opção irá mirar nas pessoas automáticamente, basta atirar que você irá matar elas"
+Aimbotdesc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbotdesc.TextScaled = true
+Aimbotdesc.TextSize = 14.000
+Aimbotdesc.TextWrapped = true
+
+UICorner_12.Parent = Aimbotdesc
+
+Killall.Name = "Kill all"
+Killall.Parent = Fundo
+Killall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Killall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Killall.BorderSizePixel = 0
+Killall.Position = UDim2.new(0.0303951427, 0, 0.406542063, 0)
+Killall.Size = UDim2.new(0, 164, 0, 26)
+Killall.Font = Enum.Font.SourceSans
+Killall.Text = "Kill all"
+Killall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Killall.TextScaled = true
+Killall.TextSize = 14.000
+Killall.TextWrapped = true
+Killall.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/PpALBidP"))()
+end)
+
+UICorner_13.Parent = Killall
+
+Killalldesc.Name = "Kill all desc"
+Killalldesc.Parent = Fundo
+Killalldesc.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Killalldesc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Killalldesc.BorderSizePixel = 0
+Killalldesc.Position = UDim2.new(0.103343464, 0, 0.528037369, 0)
+Killalldesc.Size = UDim2.new(0, 115, 0, 59)
+Killalldesc.Font = Enum.Font.SourceSansBold
+Killalldesc.Text = "Use a opção somente quando estiver com armas, após executar ela, atire com a sua arma para frente."
+Killalldesc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Killalldesc.TextScaled = true
+Killalldesc.TextSize = 14.000
+Killalldesc.TextWrapped = true
+
+UICorner_14.Parent = Killalldesc
+
+Errofelipemenu.Name = "Erro felipe menu"
+Errofelipemenu.Parent = Fundo
+Errofelipemenu.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Errofelipemenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Errofelipemenu.BorderSizePixel = 0
+Errofelipemenu.Position = UDim2.new(0.583586633, 0, 0.471962631, 0)
+Errofelipemenu.Size = UDim2.new(0, 115, 0, 60)
+Errofelipemenu.Font = Enum.Font.SourceSansBold
+Errofelipemenu.Text = "Lembrando que a opção do felipe menu está em desenvolvimento, então peço que aguarde ela estar com bypass."
+Errofelipemenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+Errofelipemenu.TextScaled = true
+Errofelipemenu.TextSize = 14.000
+Errofelipemenu.TextWrapped = true
+
+UICorner_15.Parent = Errofelipemenu
